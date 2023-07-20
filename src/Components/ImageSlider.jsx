@@ -3,14 +3,21 @@ import {AiOutlineArrowLeft} from 'react-icons/ai'
 import {AiOutlineArrowRight} from 'react-icons/ai'
 import { useState} from "react"
 import React from "react"
+// import img from '../assets/img-5.jpg'
+
 
 const ImageSlider = () => {
   const [ImgIndex,setImgIndex] = useState(0);
 
   return (
    <React.Fragment>
-     <div className="bg-slate-100 relative h-[250px] max-h-[250px] w-[100%]">
-      <img src={images[ImgIndex]} alt=""  className="h-[100%] w-[100%] rounded-lg"/>
+     <div style={{
+      backgroundImage : `url(${images[ImgIndex]})`,
+      backgroundRepeat : "no-repeat",
+      backgroundPosition : "center",
+      backgroundSize : "cover"
+     }} className="bg-slate-100 relative h-[250px] max-h-[250px] w-[100%]">
+      {/* <img src={images[ImgIndex]} alt=""  className="h-[100%] w-[100%] rounded-lg"/> */}
       <button onClick={()=>{
         if(ImgIndex < 0){
             setImgIndex(images.length - 1);
