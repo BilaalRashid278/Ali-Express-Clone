@@ -9,3 +9,9 @@
     background-size: cover;
     border-radius: 5px;
 }
+.img3{
+    background-image: url('./assets//register2.webp');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}

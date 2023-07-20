@@ -17,7 +17,7 @@ const Home = () => {
       </nav>
 
       <main className='mt-5 bg-slate-200 pt-4'>
-        <div className='flex px-10 gap-3'  name="Products-wrapper">
+        <div className='flex px-10 gap-3 justify-between'  name="Products-wrapper">
 
           <div className='hidden lg:block' name='categories-wrapper'> 
             <Categories/>
@@ -41,7 +41,7 @@ const Home = () => {
             <Rejister/>
           </div>
         </div>
-        
+
       </main>
    </div>
   </header>
