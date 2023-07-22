@@ -15,7 +15,8 @@ const ImageSlider = () => {
       backgroundImage : `url(${images[ImgIndex]})`,
       backgroundRepeat : "no-repeat",
       backgroundPosition : "center",
-      backgroundSize : "cover"
+      backgroundSize : "cover",
+      borderRadius : "5px"
      }} className="bg-slate-100 relative h-[250px] max-h-[250px] w-[100%]">
       {/* <img src={images[ImgIndex]} alt=""  className="h-[100%] w-[100%] rounded-lg"/> */}
       <button onClick={()=>{

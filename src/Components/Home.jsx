@@ -3,11 +3,12 @@ import ImageSlider from './ImageSlider';
 import SearchInput from './SearchInput';
 import Categories from './categories';
 import Rejister from './Rejister';
+import Products from './Products';
 const Home = () => {
   return (
   <header>
    <div  className=''>
-    <nav className="pt-2 px-10">
+      <nav className="pt-2 px-10">
         <div name='nav-wrapper'>
           <Navbar/>
         </div>
@@ -33,7 +34,7 @@ const Home = () => {
 
         </div>
 
-        <div className="md:flex justify-between px-10 mt-5 flex-wrap md:flex-nowrap hidden  lg:hidden">
+        <div name='small devices products' className="md:flex justify-between px-10 mt-5 flex-wrap md:flex-nowrap hidden  lg:hidden">
           <div className='lg:hidden'>
             <Categories/>
           </div>
@@ -42,6 +43,9 @@ const Home = () => {
           </div>
         </div>
 
+        <div className="px-10">
+          <Products/>
+        </div>
       </main>
    </div>
   </header>
