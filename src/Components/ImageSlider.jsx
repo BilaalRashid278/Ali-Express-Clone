@@ -34,7 +34,7 @@ const ImageSlider = () => {
         }
       }} className="absolute top-[50%] right-1 bg-slate-100/[0.6] p-2 rounded-full"><AiOutlineArrowRight size={23}/></button>
     </div>
-    <div className="border border-[red] mt-4 h-[153px] rounded-md img3 px-3">
+    <div className="border border-[red] mt-4 h-[164px] rounded-md img3 px-3">
       <div className="mt-4 text-white">
         <h2 className="font-bold">Welcome Deal</h2>
         <h4>Your exclusive price</h4>
