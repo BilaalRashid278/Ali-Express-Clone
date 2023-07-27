@@ -12,7 +12,7 @@ const Products = () => {
   },[]);
 
   return (
-    <div className="flex justify-center gap-2 md:justify-between mt-5 flex-wrap">
+    <div className="flex justify-center gap-2 md:justify-center md:gap-2 mt-5 flex-wrap">
       {productapi.map((item,index)=>{
        if(item.images === null || item.images === "" || !item.images){
         return (

@@ -3,7 +3,7 @@ import {TfiMenuAlt} from 'react-icons/tfi'
 
 const Categories = () => {
   return (
-   <div className="w-[350px] lg:w-[280px] bg-white rounded-md px-5 flex items-center flex-col">
+   <div className="w-[320px] lg:w-[280px] bg-white rounded-md px-5 flex items-center flex-col">
     <div className="w-[100%] flex items-center my-2">
               <span><TfiMenuAlt size={22}/></span>
               <span className="text-[15px] cursor-pointer px-2 pb-[0.8px] font-bold">Categories</span>

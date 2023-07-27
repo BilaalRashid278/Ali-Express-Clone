@@ -34,7 +34,7 @@ const Home = () => {
 
         </div>
 
-        <div name='small devices products' className="md:flex justify-between px-10 mt-5 flex-wrap md:flex-nowrap hidden  lg:hidden">
+        <div name='small devices products' className="md:flex gap-2 justify-center px-10 mt-5 flex-wrap md:flex-nowrap hidden  lg:hidden">
           <div className='lg:hidden'>
             <Categories/>
           </div>

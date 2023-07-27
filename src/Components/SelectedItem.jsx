@@ -24,7 +24,7 @@ const SelectedItem = () => {
 
       <main>
         <div className="px-10">
-          {item[0].pricing}
+        {!item.length ? <h2>error</h2> : item[0].pricing}
         </div>
       </main>
     </div>
